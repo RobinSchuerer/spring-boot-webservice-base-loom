@@ -5,3 +5,6 @@
 * Rest Webservice
 * JSON
 * Swagger
+
+## Swagger UI
+[http://localhost:12345/swagger-ui.html]
