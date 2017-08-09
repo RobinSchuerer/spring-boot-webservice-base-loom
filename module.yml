@@ -1,10 +1,10 @@
 ---
-project:
-  groupId: robinschuerer
-  artifactId: spring-boot-webservice-loom
-  version: 1.0.0-SNAPSHOT
 plugins:
+  - springboot
   - junit4
+settings:
+  javaPlatformVersion: 8
+  springboot.version: 1.5.3.RELEASE
 dependencies:
   - io.springfox:springfox-swagger2:2.7.0
   - io.springfox:springfox-swagger-ui:2.7.0
